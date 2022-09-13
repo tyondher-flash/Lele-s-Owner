@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container{
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 400px;
+        width: 80%;
+        background-color:grey;
+        margin-bottom: 100px;
+        border-radius: 20px;
+        display: flex;
+        padding: 60px 50px;
+    }
+    .gambar{
+        width: 100%;
+    }
+    .gambar img{
+        width: 30%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .biodata{
+        width: 40%;
+        margin: 0px ;
+        color: #fef5ac;
+    }
+    .biodata h1{
+        font-size: 40px;
+    }
+    .biodata h2{
+        font-size: 35px;
+        color: #fef5ac;
+    }
+    .biodata h3{
+        font-size: 35px;
+        color: #fef5ac;
+    }
+    .biodata h4{
+        color: white;
+    }
